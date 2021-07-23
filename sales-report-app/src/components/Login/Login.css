@@ -1,0 +1,52 @@
+.card-cantainer{
+    width: 90%;
+    max-width: 350px;
+}
+.contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 16px;
+}
+.img-card-login{
+    position:relative;
+    width:60%;
+    left:20%;
+    height:auto
+}
+
+.title{
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.form-login{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 8px;
+    text-align: center;
+}
+.input-form{
+    padding: 16px;
+}
+
+.button-form{
+    padding: 16px;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
